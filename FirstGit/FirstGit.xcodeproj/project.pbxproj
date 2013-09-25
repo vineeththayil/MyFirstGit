@@ -22,8 +22,8 @@
 		852106B417F2A135007CE7A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8521069317F2A135007CE7A3 /* UIKit.framework */; };
 		852106BC17F2A135007CE7A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 852106BA17F2A135007CE7A3 /* InfoPlist.strings */; };
 		852106BE17F2A135007CE7A3 /* FirstGitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 852106BD17F2A135007CE7A3 /* FirstGitTests.m */; };
-		852106CA17F2A311007CE7A3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852106C817F2A311007CE7A3 /* FirstViewController.m */; };
-		852106CB17F2A311007CE7A3 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852106C917F2A311007CE7A3 /* FirstViewController.xib */; };
+		852106CF17F2A429007CE7A3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 852106CD17F2A429007CE7A3 /* FirstViewController.m */; };
+		852106D017F2A429007CE7A3 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 852106CE17F2A429007CE7A3 /* FirstViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,9 +57,9 @@
 		852106B917F2A135007CE7A3 /* FirstGitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstGitTests-Info.plist"; sourceTree = "<group>"; };
 		852106BB17F2A135007CE7A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		852106BD17F2A135007CE7A3 /* FirstGitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstGitTests.m; sourceTree = "<group>"; };
-		852106C717F2A311007CE7A3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		852106C817F2A311007CE7A3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		852106C917F2A311007CE7A3 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		852106CC17F2A429007CE7A3 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		852106CD17F2A429007CE7A3 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		852106CE17F2A429007CE7A3 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,9 +127,9 @@
 				852106A817F2A135007CE7A3 /* ViewController.m */,
 				852106AA17F2A135007CE7A3 /* Images.xcassets */,
 				8521069617F2A135007CE7A3 /* Supporting Files */,
-				852106C717F2A311007CE7A3 /* FirstViewController.h */,
-				852106C817F2A311007CE7A3 /* FirstViewController.m */,
-				852106C917F2A311007CE7A3 /* FirstViewController.xib */,
+				852106CC17F2A429007CE7A3 /* FirstViewController.h */,
+				852106CD17F2A429007CE7A3 /* FirstViewController.m */,
+				852106CE17F2A429007CE7A3 /* FirstViewController.xib */,
 			);
 			path = FirstGit;
 			sourceTree = "<group>";
@@ -240,7 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				852106A617F2A135007CE7A3 /* Main_iPad.storyboard in Resources */,
-				852106CB17F2A311007CE7A3 /* FirstViewController.xib in Resources */,
+				852106D017F2A429007CE7A3 /* FirstViewController.xib in Resources */,
 				852106AB17F2A135007CE7A3 /* Images.xcassets in Resources */,
 				852106A317F2A135007CE7A3 /* Main_iPhone.storyboard in Resources */,
 				8521069A17F2A135007CE7A3 /* InfoPlist.strings in Resources */,
@@ -265,7 +265,7 @@
 				852106A917F2A135007CE7A3 /* ViewController.m in Sources */,
 				852106A017F2A135007CE7A3 /* AppDelegate.m in Sources */,
 				8521069C17F2A135007CE7A3 /* main.m in Sources */,
-				852106CA17F2A311007CE7A3 /* FirstViewController.m in Sources */,
+				852106CF17F2A429007CE7A3 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
